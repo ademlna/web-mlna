@@ -1,0 +1,231 @@
+[00:00:05.426] Server  LOG     ✓ Ready in 3.5s
+[00:01:53.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:10.943] Server  LOG     ✓ Compiled in 2s
+[00:05:30.610] Server  LOG     ✓ Compiled in 371ms
+[00:07:49.891] Server  WARN    ⚠ Cross origin request detected from 172.18.144.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:07:49.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:44.374] Server  WARN    ⚠ Cross origin request detected from 192.168.137.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:10:44.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:12.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:43.831] Server  WARN    ⚠ Cross origin request detected from 192.168.1.2 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:12:44.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:19.896] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:36.289] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:52.998] Server  LOG     ✓ Compiled in 645ms
+[00:16:06.136] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:36.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:48.981] Browser ERROR   ./components/HeroSection.tsx:13:30
+Parsing ecmascript source code failed
+  11 |       id="home"
+  12 |       v
+> 13 |       {/* Background Image */}
+     |                              ^
+  14 |       <div
+  15 |         className="absolute inset-0 bg-cover bg-center pointer-events-none"
+  16 |         style={{
+
+Expected '...', got '}'
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:20:49.368] Browser ERROR   ./components/HeroSection.tsx:13:30
+Parsing ecmascript source code failed
+  11 |       id="home"
+  12 |       v
+> 13 |       {/* Background Image */}
+     |                              ^
+  14 |       <div
+  15 |         className="absolute inset-0 bg-cover bg-center pointer-events-none"
+  16 |         style={{
+
+Expected '...', got '}'
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:20:49.368] Browser ERROR   ./components/HeroSection.tsx:13:30
+Parsing ecmascript source code failed
+  11 |       id="home"
+  12 |       v
+> 13 |       {/* Background Image */}
+     |                              ^
+  14 |       <div
+  15 |         className="absolute inset-0 bg-cover bg-center pointer-events-none"
+  16 |         style={{
+
+Expected '...', got '}'
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:20:49.368] Browser ERROR   ./components/HeroSection.tsx:13:30
+Parsing ecmascript source code failed
+  11 |       id="home"
+  12 |       v
+> 13 |       {/* Background Image */}
+     |                              ^
+  14 |       <div
+  15 |         className="absolute inset-0 bg-cover bg-center pointer-events-none"
+  16 |         style={{
+
+Expected '...', got '}'
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:20:53.551] Server  LOG     ✓ Compiled in 239ms
+[00:24:34.540] Server  LOG     ✓ Compiled in 240ms
+[00:24:34.668] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:34.859] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.361] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.361] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.362] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.362] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.376] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:35.376] Browser ERROR   ./components/HeroSection.tsx:11:7
+Parsing ecmascript source code failed
+   9 |   return (
+  10 |     <section
+> 11 |       <section
+     |       ^
+  12 |   id="home"
+  13 |   className="relative isolate min-h-screen flex items-center justify-center text-center overflow-hidden bg-black"
+  14 | >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/HeroSection.tsx
+    ./app/page.tsx
+[00:24:36.324] Server  LOG     ✓ Compiled in 441ms
+[00:24:45.280] Server  LOG     ✓ Compiled in 150ms
+[00:24:51.349] Server  LOG     ✓ Compiled in 188ms
+[00:25:05.145] Server  LOG     ✓ Compiled in 166ms
+[00:26:25.533] Server  LOG     ✓ Compiled in 237ms
+[00:26:41.980] Server  LOG     ✓ Compiled in 197ms
+[00:27:39.127] Server  LOG     ✓ Compiled in 611ms
+[00:28:00.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:55.825] Server  LOG     ✓ Compiled in 310ms
+[00:28:58.029] Server  LOG     ✓ Compiled in 220ms
+[00:29:01.419] Server  LOG     ✓ Compiled in 157ms
+[00:29:03.826] Server  LOG     ✓ Compiled in 125ms
+[00:29:05.703] Server  LOG     ✓ Compiled in 374ms
+[00:29:47.810] Server  LOG     ✓ Compiled in 382ms
+[00:30:04.044] Server  LOG     ✓ Compiled in 98ms
+[00:30:06.446] Server  LOG     ✓ Compiled in 200ms
+[00:30:21.874] Server  LOG     ✓ Compiled in 233ms
+[00:30:23.528] Server  LOG     ✓ Compiled in 345ms
