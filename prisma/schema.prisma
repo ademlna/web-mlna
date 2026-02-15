@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model account {
+  account_id    String       @id @db.VarChar(36)
+  name          String       @db.VarChar(64)
+  role          account_role
+  email         String       @db.VarChar(64)
+  password      String       @db.Text
+  photo_profile String       @db.VarChar(64)
+  created_at    DateTime     @db.Timestamp(0)
+  updated_at    DateTime     @db.Timestamp(0)
+  photo         photo[]
+}
+
+model category {
+  category_id Int      @id @default(autoincrement())
+  name        String   @db.VarChar(100)
+  slug        String   @db.VarChar(100)
+  created_at  DateTime @db.DateTime(0)
+  updated_at  DateTime @db.DateTime(0)
+  photo       photo[]
+}
+
+model photo {
+  photo_id    String      @id @db.VarChar(36)
+  location    String      @db.VarChar(150)
+  caption     String      @db.Text
+  filename    String      @db.VarChar(255)
+  category_id Int
+  account_id  String      @db.VarChar(36)
+  taken_at    DateTime    @db.Date
+  created_at  DateTime    @db.Timestamp(0)
+  updated_at  DateTime    @db.Timestamp(0)
+  category    category    @relation(fields: [category_id], references: [category_id], onUpdate: Restrict, map: "photo_ibfk_1")
+  account     account     @relation(fields: [account_id], references: [account_id], onUpdate: Restrict, map: "photo_ibfk_3")
+  photo_tag   photo_tag[]
+
+  @@index([account_id], map: "account_id")
+  @@index([category_id], map: "category_id")
+}
+
+model photo_tag {
+  photo_tag_id String @id @db.VarChar(36)
+  photo_id     String @db.VarChar(36)
+  tag          String @db.VarChar(50)
+  photo        photo  @relation(fields: [photo_id], references: [photo_id], onUpdate: Restrict, map: "photo_tag_ibfk_1")
+
+  @@index([photo_id], map: "photo_id")
+}
+
+enum account_role {
+  admin
+  user
+}
